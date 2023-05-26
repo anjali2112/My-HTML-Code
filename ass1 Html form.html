@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        background-color:lightblue;
+        font-size: 18px;
+        
+    }
+    form{
+        background-color: azure;
+        padding: 50px;
+        margin: 10px 50px;
+        width: 500px;
+    }
+/*input{
+        height:30px;
+            width:200px;
+              border-radius:5px;
+                    float: right;
+              
+    }*/
+    .button{
+        background-color: rgba(0,100,0,0);
+        height: 30px;
+        color:red;
+        text-transform: uppercase;
+        font-size: large;
+        border: 2px solid black;
+
+    }
+ 
+    </style>
+
+
+
+
+
+
+</head>
+<body>
+    <h1>Student Registeration Form</h1>
+    <label for ="fullname">Full name:</label>
+    <input type="text" placeholder="Enter your name" id="fullname">
+    <br></br>
+
+    <label for="father's Name"></label>Father's Name:</label>
+    <input  type="father's name" id="father's name">
+    <br></br>
+
+    <label for="mother's name"></label>Mother's Name:</label>
+    <input  type="mother's name" id="mother's name">
+    <br></br>
+
+    <label for="mail"></label>EMail:</label>
+    <input  type="email" id="mail">
+    <br></br>
+
+    <label for="gender"></label>Gender:</label>
+    <input  type="radio" id="male"><label for="male"></label>Male</label>
+    <input  type="radio" id="female"><label for="female"></label>Female</label>
+    <input  type="radio" id="other"><label for="other"></label>other</label>
+    <br></br>
+
+
+    <label for="address"></label>Address:</label>
+    <input  type="text"  placeholder="Street:- House:- Road:-" id="street:- house:- Road:-">
+    <br></br>
+
+    <label for="blood group"></label>Blood Group:</label>
+    <select id ="blood group">
+    <option>Select</option>
+    <option>A+</option>
+    <option>A-</option>
+    <option>B+</option>
+    <option>B-</option>
+    <option>AB+</option>
+    <option>AB-</option>
+    <option>O+</option>
+    <option>O-</option>
+    </select>
+
+    
+    <br></br>
+
+    <label for="department"></label>Department:</label>
+    <input  type="radio" id="cse" name="department"><label for="cse"></label>CSE</label>
+    <input  type="radio" id="eee" name="department"><label for="eee"></label>EEE</label>
+    <input  type="radio" id="BBA"  name="department"><label for="BBA"></label>BBA</label>
+    <br></br>
+
+    <label for="course"></label>Course:</label>
+    <input  type="checkbox" id="c"><label for="c"></label>C</label>
+    <input  type="checkbox" id="c++"><label for="c++"></label>C++</label>
+    <input  type="checkbox" id="java"><label for="Java"></label>Java</label>
+    <input  type="checkbox" id="AI"><label for="AI"></label>AI</label>
+    <input  type="checkbox" id="Machine Learning"><label for="Machine learning"></label>Machine learning</label>
+    <input  type="checkbox" id="Robotics"><label for="robotics"></label>Robotics</label>
+    
+    <br></br>
+    <label for="photo"></label>Photo:</label>
+    <input class="file-upload-input" type="file" onchange="readURL(this)" accept="Image*">
+    <br></br>
+
+
+    <input type="reset" class="button">
+   
+    
+    <input type="submit" class="button">
+    
+    
+    
+
+
+    
+
+    
+
+
+
+
+</body>
+</html>
