@@ -5,10 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS</title>
+    <style>
+
+    h1{
+        color:aliceblue;
+        text-shadow: 25px 25px 2px #82ff82, 1px 1px 2px red;
+    }
+
+    .item{
+        background-color: #0da30d;
+        /*width: 200px;*/
+        height:200px;
+        border:1px solid black;
+        /*box-shadow: 5px 5px 5px lightpink,10px 10px 5px red;*/
+    }
+
+    .container{
+        display:grid;
+        grid-template-columns:200px 200px 200px;
+        /*grid-template-rows:400px 400px;*/
+        gap:10px 5px;
+        /*justify-content: space-between;*/
+        /*justify-content: stretch;*/
+        /*justify-content: flex-end;*/
+    }
+
+    div:hover{
+      /*transform: translate(20px,50px)*/
+      /*transform: rotate(10deg)*/
+      /*transform: rotate(-10deg)*/
+      /*transform:scale(3,3)*/
+      /*transform:rotateX(50deg)*/
+      /*transform:rotateY(50deg)
+      transform:rotateZ(50deg)*/
+    }
+    </style>
 </head>
 
 <!--Internal Css-->
-<style>
+<!--style>
 p{
     color:blueviolet;
     font-size:25px;
@@ -24,25 +59,41 @@ img{
 h1{
     color:red;
 }
-</style>
+</style-->
+
 <body>
 
-<h1>Heyy</h1>
+
+
+<!--div>
+<img src="/Images/girl.jpeg" style="width:100%;">
+</div-->
+<!--p> This is my paragraph</p>
 <p> This is my paragraph</p>
-<p> This is my paragraph</p>
-<p> This is my paragraph</p>
+<p> This is my paragraph</p-->
+<div class="container">
+<div class="item" style="grid-column:1/5">1</div>
+<div class="item">2</div>
+<div class="item">3</div>
+<div class="item">4</div>
+<div class="item">5</div>
+<div class="item">6</div>
+<div class="item">7</div>
+
+</div>
+
 
 
 <!--inline Css-->
 
 <!--p style="color:brown;">This is my paragraph</p-->
 
-<img
+<!--img
 
     src="\Images\girl.jpeg"
     alt="girl"
     height="200px"
-    width="300px"/></a>
+    width="300px"/></a-->
   
     
 </body>
