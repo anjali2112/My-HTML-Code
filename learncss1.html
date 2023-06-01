@@ -6,61 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS</title>
     <style>
-     h1{
-        color:aliceblue;
-        text-shadow: 1px 1px 2px #0da30d, 1px 1px 2px red;
-    }
 
-    .item{
-        background-color: #0da30d;
-            height: 200px; 
-            width: 200px;
-            border: 1px black;
+p{
+    color:green;
+    font-size:25px;
+    background-color:lightcoral;
+}
 
-    }
-    .container{
-        display:grid;
-        
-    /*grid-template-columns: auto auto auto;*/
-    grid-template-columns: auto 200px auto;
-    grid-template-rows: 200px 200px;
-    gap:10px 5px;
-    /*justify-content: space-between;
-    justify-content: space-around;*/
-    justify-content: flex-end;
-    
-    
-
-
-    }
-
-    div{
-            background-color: #0da30d;
-            height: 200px; 
-            /*width: 200px;
-            box-shadow: 5px 5px 5px lightpink;*/
-            transform: translate(20px,50px);
-    }  
-
-    /*div:hover{
-    /*transform: rotate{10deg};
-    /*transform: rotateZ{50deg};
-       transform: scale(2,3);
-    }*/
-    </style>
+img{
+    height:200px;
+    border-width: 5px;
+    /*border-top-width: 2px;
+    border-right-width: 10px ;*/
+    /*border-width:3px 5px 10px;*/
+    border-color: red green;
+    border-style: solid;
+    /*border-image: url(/Images/slide2.jpeg) 30 stretch;*/
+    /*border-color: red forestgreen;*/
+    border-style: solid ;
+    border-radius: 50%;
+   /* padding:20px;*/
+  
+}
+h1{
+    color:red;
+}
+  </style>
 </head>
 <body>
     <h1>Hello World</h1>
+    <p> This is my paragraph</p>
+    <p> This is my paragraph</p>
+    <p style="color:white"> This is my paragraph</p>
 
-<!--div> 
-<image src="/Images/girl image.jpeg" style="width:100%">
+
+<div>
+<img src="/Images/girl.jpeg">
 </div-->
-
-<div class="container">
-<div class="item"style="grid-column"
-
-</div>
-
 
     
 </body>

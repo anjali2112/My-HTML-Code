@@ -5,9 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<style>
+.container{
+    display: grid;
+    grid-template-areas: "header header header"
+                        "aside section section"
+                        "aside footer footer"
+                        "bottom bottom bottom"                   ;
+    grid-template-rows:50px 400px 100px 50px ;
+}
+
+.item1{
+    grid-area: header;
+    background-color: burlywood;
+}
+.item2{
+    grid-area:aside;
+    background-color: lightslategray;
+}
+.item3{
+    grid-area: section;
+    background-color: lightpink;
+}
+.item4{
+    grid-area: footer;
+    background-color: lightblue;
+}
+.item5{
+    grid-area: bottom;
+    background-color: lightsalmon;
+}
+</style>
+
+
 </head>
 <body>
-    <h1> Hello friends</h1>
-    
+
+<div class="container">
+
+<div class="item1">Header</div>  
+<div class="item2">Aside</div>  
+<div class="item3">Section</div>
+<div class="item4">Footer</div>
+<div class="item5">Bottom</div>
+</div>
+
+
+
 </body>
 </html>
